@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*
+{
+    padding: 0;
+    margin: 0;  
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 1em;
+}
+
+#form
+{
+    min-width: 250px;
+    width: 60vw;
+    max-width: 400px;
+    border-radius: 1%;
+    background-color: #fff;
+    box-shadow: 0px 1px 15px #00000090;
+    margin: auto;    
+    padding: 30px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #form > h1
+    {
+        text-align: center;
+        font-size: 1.6em;    
+    }
+
+        #form > h1 > mark
+        {
+            padding: 5px;            
+            border-radius: 10px;
+        }
+
+    #form > p
+    {
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    
+    #form > hr
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #form > form > label
+    {
+        font-weight: bold;            
+        line-height: 1em;
+    }            
+
+    #form > form > input
+    {
+        width: 96.5%;
+        padding: 0.5em;
+        border-radius: 3px;
+        margin-top: 5px;
+        border: 1px solid gray;
+    }
+
+    #form > form > input:focus-visible
+    {        
+        outline-style: none;
+        border: 1px solid black;
+    }
+
+    #form > form > input.acerto
+    {        
+        border: 1px solid #09ff00;
+        background-color: transparent;
+    }
+
+    #form > form > input.erro
+    {        
+        border: 1px solid #ff0000;
+    }
+
+    #form > form > div.erro
+    {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 0.79em;
+        font-weight: 100;
+        color: red;
+    }
+
+    #form > form > button
+    {
+        padding: 15px;
+        border: 0px solid transparent;
+        border-radius: 5px;
+        background-color: #008000f0;
+        color: white;
+        width: 100%;
+        cursor: pointer;
+    }
+
+
+#login
+{
+    display: block;
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #login > h1
+    {
+        text-align: center;
+    }
+
+    #login > a
+    {
+        display: block;        
+        margin: auto;
+        width: 80vw;        
+        padding: 15vh 15px;
+        background-color: #008000f0;
+        border: 0px solid transparent;
+        border-radius: 1%;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;        
+        color: white;
+        cursor: pointer;
+    } 
